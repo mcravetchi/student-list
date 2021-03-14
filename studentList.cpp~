@@ -1,0 +1,60 @@
+#include <iostream>
+#include <cstring>
+#include <iomanip>
+#include <vector>
+
+using namespace std;
+
+struct studentList{
+  char firstName[20];
+  char lastName[20];
+  int id;
+  float gpa;
+
+};
+
+
+
+
+
+int main(){
+  char user[6];
+  bool quit = true;
+  vector<*StudentList> student = new studentList();
+
+
+  while(quit==true) {
+  
+    cout << "ADD, PRINT, DELETE, OR QUIT?"<<endl;
+    cin.get(user,6);
+    cin.ignore(100, '\n');
+    
+    if(strcmp(user, "ADD") == 0){
+      cout << b;
+      
+      
+      
+    }
+    else if(strcmp(user, "PRINT") == 0) {
+      
+      
+    }
+    else if(strcmp(user, "DELETE") == 0) {
+      
+      
+      
+    }
+    else if(strcmp(user, "QUIT") == 0) {
+      quit = false;
+      
+      
+    }
+    else{
+      cout << "PLEASE DO A VALID OPERATION" << endl;
+    }
+  }
+
+  return 0;
+}
+
+  
